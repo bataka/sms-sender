@@ -1,0 +1,19 @@
+/**
+* @apiDefine OkResult
+* @apiSuccess {boolean=true} result
+*/
+
+/**
+* @apiDefine TrueFalseResult
+* @apiSuccess {boolean=true,false} result
+*/
+
+/**
+ * @apiDefine ErrorResp
+ * @apiErrorExample {json} Error Response:
+ *     HTTP/1.1 404 Not Found
+ *     {
+ *       "error": <ErrorName>,
+ *       "message": <error detail description>
+ *     }
+ */

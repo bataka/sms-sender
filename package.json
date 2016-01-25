@@ -1,0 +1,15 @@
+{
+  "name": "api-solution-sms-sender",
+  "version": "1.0.0",
+  "description": "sms service",
+  "main": "sms.js",
+  "scripts": {
+    "test": "node_modules/.bin/jsdoc",
+    "doc": "apidoc -f .js -f .apidoc-header"
+  },
+  "author": "farcek@gmail.com",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+  }
+}
